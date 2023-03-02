@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+
+.block{
+    width: 1280px;
+    height: 500px;
+    background-image: url(/images/brooke-lark-08bOYnH_r_E-unsplash\ 1.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.header{
+  color: black;
+  font-size: 45px;
+  display: inline-block;
+  margin: 105px 0px 0px 55px ;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+p{
+    margin: 10px 0px 0px 57px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+.btm{
+   color: #000;
+    display: inline-block;
+    margin: 48px 0px 0px 55px ;
+    font-size: 18px;
+}
+
+.item{
+    padding: 8px 36px;
+    text-decoration: none;
+     background: #FF8126;
+     color: #fff;
+     border-radius: 5px;
+}
