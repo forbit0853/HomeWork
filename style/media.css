@@ -1,0 +1,108 @@
+@media screen and (max-width: 1000px){
+    
+}
+
+
+@media screen and (max-width: 1185px){
+
+  .block-information{
+    flex-wrap: wrap;
+  }
+  
+  .ppp{
+    flex-wrap: wrap;
+  }
+  .sss{
+    flex-wrap: wrap;
+  }
+
+  } 
+
+  @media screen and (max-width: 1094px){
+
+    .goods1{
+        margin-left: 16px;
+    }
+    } 
+
+
+    @media screen and (max-width: 1185px){
+        
+        .bloks2{
+            margin-left: 160px;
+        }
+        
+        } 
+
+
+        @media screen and (max-width: 680px){
+           .bloks1{
+            margin-left: 23px;
+           }
+           .bloks2{
+            margin-left: 23px;
+           }
+        
+            } 
+
+            @media screen and (max-width: 546px){
+                .bloks1{
+                 margin-left: 16px;
+                }
+                .bloks2{
+                 margin-left: 16px;
+                }
+             
+                 } 
+
+
+                 @media screen and (max-width: 1095px){
+                    .goods4{
+                     margin-left: 291px;
+                    }
+                     } 
+
+                     @media screen and (max-width: 823px){
+                        .goods4{
+                         margin-left: 16px;
+                        }
+                         } 
+
+                         @media screen and (max-width: 546px){
+                            .goods1{
+                             margin-left: 138px;
+                            }
+                            .goods2{
+                                margin-left: 138px;
+                               }
+                               .goods3{
+                                margin-left: 138px;
+                               }
+                               .goods4{
+                                margin-left: 138px;
+                               }
+                             } 
+
+
+/* @media screen and (max-width: 780px){
+  .burger{
+    display: block;
+  }
+
+.menu a{
+    display: block;
+    
+}
+
+.menu{
+    position: fixed;
+    background: #369;
+}
+
+.menu.active a{
+    width: 75vw;
+    height: 10vw;
+    background: #369;
+}
+} * */
+

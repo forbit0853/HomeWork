@@ -22,10 +22,13 @@ ol, ul {
 }
 
 
+
+
 .menu {
     background: rgb(222, 222, 222);
     text-align: center;
     padding: 17px 0px 16px;
+    transition: 1s ease-in-out;
 }
 
 
@@ -75,7 +78,7 @@ ol, ul {
 
 .banner {
     background-image: url(/images/Rectangle\ 2.png);
-    width: 1440px;
+    
     height: 604px;
 }
 
@@ -112,28 +115,18 @@ h1 {
 
 
 .text-goods {
-    color: 24px;
-    margin: 80px 0px 50px 100px;
+    
+    margin: 80px 0px 50px 0px;
     font-size: 24px;
 }
-
-.goods1 {
-    background: #000;
-    width: 255px;
-    height: 363px;
-    margin-left: 105px;
-}
-
-
 
 .goods1 {
     background: #fff;
     width: 255px;
     height: 363px;
-    /* margin-left: 105px; */
     display: inline-block;
-    margin-bottom: 100px;
-    padding-bottom: 100px;
+    margin-bottom: 75px;
+    margin-left: 0px;
 }
 
 .goods2 {
@@ -142,7 +135,7 @@ h1 {
     height: 363px;
     display: inline-block;
     margin-left: 16px;
-    padding-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 
@@ -152,7 +145,7 @@ h1 {
     height: 363px;
     display: inline-block;
     margin-left: 16px;
-    padding-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .goods4 {
@@ -161,7 +154,7 @@ h1 {
     height: 363px;
     display: inline-block;
     margin-left: 16px;
-    padding-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .cherry {
@@ -208,7 +201,7 @@ h1 {
     background: #F13C6E;
     width: 520px;
     height: 212px;
-    margin: 0px 0px 0px 113px;
+    margin: 0px 0px 20px 160px;
     display: flex;
 }
 
@@ -232,7 +225,6 @@ h1 {
 }
 
 .blocks-text-2-1 {
-
     background: #F13C6E;
     color: #fff;
     padding-left: 40px;
@@ -280,10 +272,6 @@ h1 {
     display: flex;
 }
 
-
-
-
-
 .blocks2-text-1-1 {
     color: #fff;
     background: #F13C6E;
@@ -329,7 +317,6 @@ h1 {
 
 .car {
     background: #F13C6E;
-
 }
 
 .fon-white {
@@ -356,7 +343,6 @@ h1 {
 
 .footer-block {
     background: #fff;
-    width: 1920px;
     height: 493px;
 }
 
@@ -381,42 +367,7 @@ h1 {
     line-height: 140.62%;
 }
 
-.one-line {
-    border: 1px solid #EFEFEF;
-    position: absolute;
-    width: 230px;
-    height: 0px;
-    left: 168px;
-    top: 2830px;
-}
 
-.two-line {
-    position: absolute;
-    width: 230px;
-    height: 0px;
-    left: 433px;
-    top: 2830px;
-    border: 1px solid #EFEFEF;
-}
-
-.three-line {
-    position: absolute;
-    width: 230px;
-    height: 0px;
-    left: 696px;
-    top: 2830px;
-    border: 1px solid #EFEFEF;
-}
-
-
-.four-line {
-    position: absolute;
-    width: 230px;
-    height: 0px;
-    left: 960px;
-    top: 2830px;
-    border: 1px solid #EFEFEF;
-}
 
 .product {
     background: #fff;
@@ -439,9 +390,9 @@ h1 {
 }
 
 
+
 .line-barrier{
     border: 1px solid #EFEFEF;
-
 }
 
 .photo-youtub{
@@ -541,7 +492,7 @@ h1 {
 
 
 .footer-information{
-    width: 1920px;
+    
     height: 64px;
     background: #EFEFEF;
 }
@@ -571,7 +522,37 @@ h1 {
 
 
 
+.burger{
+ display: none;
+ position: relative;
+ transition: 0.5s ease-in-out;
+ 
+}
+
+.burger-line{
+    margin: 5px;
+  width: 40px;
+  height: 3px;
+  background: #000;
+}
 
 
+.burger.active div:nth-child(1){
+    transform: rotate(45deg);
+  }
+
+
+.burger.active div:nth-child(2){
+  display: none;
+}
+
+.burger.active div:nth-child(3){
+    transform: rotate(-45deg);
+  }
+
+.burger.active div{
+    position: absolute;
+    transition: 0.5s ease-in-out;
+  }
 
 
