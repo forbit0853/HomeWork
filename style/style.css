@@ -201,7 +201,7 @@ h1 {
     background: #F13C6E;
     width: 520px;
     height: 212px;
-    margin: 0px 0px 20px 160px;
+    margin: 0px 0px 20px 161px;
     display: flex;
 }
 
@@ -320,11 +320,10 @@ h1 {
 }
 
 .fon-white {
-    width: 1110px;
+    width: 1080px;
     height: 357px;
     background: #fff;
-
-    margin: 60px 0px 0px 90px;
+    margin: 60px 0px 0px 160px;
 }
 
 .sss {

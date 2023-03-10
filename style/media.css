@@ -62,11 +62,6 @@
                     }
                      } 
 
-                     @media screen and (max-width: 823px){
-                        .goods4{
-                         margin-left: 16px;
-                        }
-                         } 
 
                          @media screen and (max-width: 546px){
                             .goods1{
@@ -82,6 +77,27 @@
                                 margin-left: 138px;
                                }
                              } 
+
+
+                             @media screen and (max-width: 822px){
+                                .goods4{
+                                  margin-left: 16px;
+                                }
+                                 } 
+      
+                        
+
+                                   @media screen and (max-width: 547px){
+                                    .goods4 {
+                                      margin-left: 138px;
+                                       } }
+
+                                       @media screen and (max-width: 1183px){
+                                        .fon-white {
+                                          margin-left: 0px;
+                                           } }
+                             
+                          
 
 
 /* @media screen and (max-width: 780px){
