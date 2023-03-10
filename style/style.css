@@ -1,22 +1,16 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #E5E5E5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #E5E5E5;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 
-ol,ul {
-    list-style: none;
-}
-
-.conteiner {
-    max-width: 1110px;
-    margin: 0px auto;
-    
-}
+ol, ul {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
