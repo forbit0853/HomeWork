@@ -1,0 +1,13 @@
+@mixin font-h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@mixin text-font{
+     font-family: 'Open Sans', sans-serif;
+}
+
+@mixin center-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
