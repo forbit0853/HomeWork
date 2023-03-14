@@ -1,12 +1,12 @@
-@mixin font-h1{
+@mixin fonth1(){
     font-family: 'Josefin Sans', sans-serif;
 }
 
-@mixin text-font{
+@mixin text-font(){
      font-family: 'Open Sans', sans-serif;
 }
 
-@mixin center-element{
+@mixin center-element(){
     display: flex;
     justify-content: center;
     align-items: center;
