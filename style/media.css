@@ -1,11 +1,10 @@
 @media screen and (max-width: 1054px){
     
         .content-block{
-       
+            flex-wrap: wrap;
         }
 
         .block3{
-            
             flex-wrap: wrap;
         }
     

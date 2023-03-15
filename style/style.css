@@ -46,8 +46,7 @@ ol, ul {
 }
 
 .content-block {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   padding-top: 30px;
 }
 .content-block .block1 {
